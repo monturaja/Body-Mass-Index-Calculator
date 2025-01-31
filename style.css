@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+background: url(https://images.unsplash.com/photo-1633436245198-44bc17f86b89?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 100vh;
+    background-color: #f9f9f9;
+    font: 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+background: url(https://images.unsplash.com/photo-1508614999368-9260051292e5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 20% 20%;
+    background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+}
+.container{
+background: transparent;
+    padding: 10px;
+    border-right: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    border-left: 1px solid #bbbbbb;
+    border-top: 1px solid #bbbbbb;
+    font-size: 18px;
+    color: white;
+}
+.right,
+#radio {
+  padding: 10px;
+}
+.left {
+  display: inline-block;
+  padding: 10px;
+}
+.right {
+  width: 200px;
+  margin-bottom: 10px;
+}
+#age-label {
+  padding-right: 33px;
+}
+#height-label {
+  padding-right: 14px;
+}
+#radio {
+  margin-bottom: 10px;
+}
+#calculate {
+  margin-left: 82px;
+  font-weight: bold;
+  background-color: #bbbbbb;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border-color: #333;
+  color: white;
+}
+#clear {
+  background-color: #bbbbbb;
+}
+#result {
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: grey;
+  margin: 10px 0;
+  padding: 10px;
+  color: white;
+}
+.copyright{
+    color: white;
+}
